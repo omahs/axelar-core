@@ -19,7 +19,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
 
-    - name: Execute SSH commmands on remote server
+    - name: Execute SSH commands on remote server
       uses: JimCronqvist/action-ssh@master
       with:
         hosts: ${{ secrets.CATCHUP_HOST }}
